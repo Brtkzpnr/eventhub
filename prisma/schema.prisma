@@ -22,4 +22,7 @@ model Event {
   id          Int      @id @default(autoincrement())
   categoryId  Int
   Category    Category @relation(fields: [categoryId], references: [id])
+  imageUrl    String?
+  stock:      Int 
+  sold:       Int @default(0) 
 }
