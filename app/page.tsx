@@ -35,7 +35,7 @@ export default async function Home() {
             <div className="flex flex-col mb-2">
               { <Badge className="text-sm bg-purple-200 text-purple-700 mb-2">{event.Category.name}</Badge>}    
               <CardTitle className="text-xl">{event.title}</CardTitle>
-                            
+
             </div>
             <CardDescription>
               {new Date(event.date).toLocaleDateString('tr-TR')} • {event.location}

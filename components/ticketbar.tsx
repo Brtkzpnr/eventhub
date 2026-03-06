@@ -17,7 +17,7 @@ interface TicketBarProps {
 const formatDateTime = (dateInput: string | Date) => {
   const date = new Date(dateInput);
   return date.toLocaleString('tr-TR', {
-    timeZone: 'Europe/Istanbul',
+    timeZone: 'UTC',
     year: 'numeric',
     month: 'long',
     day: 'numeric',
