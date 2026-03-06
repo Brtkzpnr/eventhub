@@ -24,7 +24,7 @@ if (!event) {
 return (
   <div>
     <div className="mb-6">
-      <a href="/" className="flex items-center text-md text-gray-600 hover:text-purple-500 transition-colors">
+      <a href="/.." className="flex items-center text-md text-gray-600 hover:text-purple-500 transition-colors">
         <ArrowBigLeft className="mr-1" />
        Etkinliklere Geri Dön
       </a>
